@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a4ef64a989c349378bc4223c56bd1216" Name="Diagram1">
+        <EntityTypeShape EntityType="mdlHackaton.administrateur" Width="1.5" PointX="7.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="mdlHackaton.ArchiveHackathon" Width="1.5" PointX="7.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="mdlHackaton.ArchiveMembre" Width="1.5" PointX="7.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="mdlHackaton.atelier" Width="1.5" PointX="3" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mdlHackaton.conferencier" Width="1.5" PointX="3" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mdlHackaton.equipe" Width="1.5" PointX="3" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="mdlHackaton.hackathon" Width="1.5" PointX="3" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mdlHackaton.inscrire" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="mdlHackaton.membre" Width="1.5" PointX="5.25" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mdlHackaton.organisateur" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mdlHackaton.organise" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mdlHackaton.participer" Width="1.5" PointX="5.25" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="mdlHackaton.salle" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="mdlHackaton.token" Width="1.5" PointX="5.25" PointY="15.75" IsExpanded="true" />
+        <AssociationConnector Association="mdlHackaton.atelier_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="mdlHackaton.lien2" ManuallyRouted="false" />
+        <AssociationConnector Association="mdlHackaton.organise_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="mdlHackaton.aa" ManuallyRouted="false" />
+        <AssociationConnector Association="mdlHackaton.inscrire_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="mdlHackaton.membre_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="mdlHackaton.token_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="mdlHackaton.hackathon_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="mdlHackaton.inscrire_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="mdlHackaton.lien1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
